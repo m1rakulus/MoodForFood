@@ -1,0 +1,81 @@
+
+header{
+  background-color:rgba(95, 177, 176, 0.858);
+  text-align: center;
+  padding-top: 10px;
+  color:white;
+  font-weight: bold;
+  font-size: 60px;
+  height: inherit;
+  padding-top: 140px;
+  background-image: url('../images/heading.jpg');
+}
+
+.item1{
+  text-align:center;
+}
+
+footer{
+  background-color:rgb(255, 166, 166);
+  text-align: center;
+  font-size: 17px;
+  height: inherit;
+}
+
+.grid-container {
+  display: grid;
+  grid-template:
+  'myArea myArea . . . '
+  'myArea myArea . . .';
+  grid-gap: 5px;
+  background-color:white;
+  padding: 5px;
+  padding-bottom: 0px;
+  width:100%;
+  color:rgb(0, 0, 0);
+}
+
+.grid-container > div {
+  background-color:rgb(255, 255, 255);
+  text-align: center;
+  font-size:18px;
+  padding: 0px 0;
+  border-style: solid;
+  border-color: black;
+}
+
+
+.chunks-container {
+  display: grid;
+  grid-template:
+  'myPlace myPlace . . . '
+  'myPlace myPlace . . . '
+  'myPlace myPlace . . .';
+  grid-gap: 20px;
+  background-color:rgb(255, 255, 255);
+  padding: 20px;
+  padding-bottom: 3px;
+}
+
+
+.item1{
+  background-color: rgb(132, 216, 121);
+}
+
+.item2{
+  background-color: rgb(132, 216, 121);
+}
+
+.item3{
+  background-color: rgb(132, 216, 121);
+}
+
+.chunks-container > div {
+
+text-align: center;
+padding: 20px 0;
+font-size: 30px;
+  width:100%;
+  font-size: 15px;
+
+}
