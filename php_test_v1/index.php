@@ -29,7 +29,7 @@
 	Last Name <input type="text" name="last_name"><br>
 	Email Address <input type="text" name="email"><br>
 	Password <input type="text" name="password"><br>
-	Address(Format: 3 Railroad, D11 W34T, Dublin) <input type="text" name="contact"><br>
+	Phone Number <input type="text" name="contact"><br>
 	<input type="submit">
 </form>
 </body>
