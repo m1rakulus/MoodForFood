@@ -1,0 +1,151 @@
+header{
+  background-color:rgba(95, 177, 176, 0.858);
+  text-align: center;
+  padding-top: 10px;
+  color:white;
+  font-weight: bold;
+  font-size: 60px;
+  height: inherit;
+  padding-top: 140px;
+  background-image: url('../images/heading.jpg');
+}
+
+.item1{
+  text-align:center;
+}
+
+p{
+font-size:15px;
+}
+
+footer{
+   background-image: linear-gradient(black, gray);
+
+  font-size: 17px;
+  height: inherit;
+      border-radius: 25px;
+}
+h2{
+      text-align: left;
+    color:
+}
+
+
+
+.chunks-container {
+  display: grid;
+  grid-template:
+  'myPlace myPlace . . . '
+  'myPlace myPlace . . . '
+  'myPlace myPlace . . .';
+  grid-gap: 20px;
+  background-color:lightgreen;
+  padding: 20px;
+  padding-bottom: 3px;
+      border-radius: 25px;
+}
+
+
+.item1{
+  background-color: rgb(132, 216, 121);
+}
+
+.item2{
+  background-color: rgb(132, 216, 121);
+}
+
+.item3{
+  background-color: rgb(132, 216, 121);
+}
+
+.chunks-container > div {
+
+text-align: center;
+padding: 20px 0;
+font-size: 30px;
+  width:100%;
+  font-size: 15px;
+    
+
+}
+
+body{
+    
+    background-color:darkgreen;
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+   
+}
+h1{
+    text-align: center;
+    color:green;
+}
+
+p{
+    color:white;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+      width: 25%;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+body{
+    background: url(../food6.jpg) 
+}
+ 
+
