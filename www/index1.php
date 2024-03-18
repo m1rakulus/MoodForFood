@@ -9,85 +9,70 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>  
       
     <title>Index Page</title>
-    <link rel="stylesheet" href="CSS/index2.css">
+    <link rel="stylesheet" href="CSS/index3.css">
   </head>
     
-    <h1> Mood for Food</h1>
+    <body>
+    <header>
+        <nav>
+            <div class="logo">
+              Mood For Food
+              </div>
+            <ul class="nav-links">
+                <li><a href="index1.php">
+                  Home</a>
+                  </li>
+                <li><a href="menu.php">
+                  Menu</a>
+                  </li>
+                <li><a href="Aboutus.php">
+                  About us</a>
+                  </li>
+               
+            </ul>
+        </nav>
+    </header>
+ 
+    <section class="about">
+                <h1></h1>
 
-<div class="navbar">
-  <a href="menu.php">Menu</a>
-     <a href="Aboutus.php">About us</a>
-      
-     
-  <div class="dropdown">
-    <button class="dropbtn">Special Diets 
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="#">Vegan</a>
-      <a href="#">Vegetarian</a>
-      <a href="#">High-Protein</a>
-        <a href="#">Halal</a>
-        <a href="#">Low in calories</a>
-    </div>
-  </div> 
+        <h1>Welcome to MoodForFood</h1>
+
+        
+        <div class="about-info">
+            <div class="about-img">
+                <img src="Images/moodforfood.png" width="200" height="200" alt="Moodforfood">
+            </div>
+            <div>
+            <p> Our website provides fresh ingredients to our customers alongside with meal recipes and information of allergies.We also provide meal deals and special diets.Start your order today at MoodForFood!
+            </p>
+
+                <br><br><br><br>
+                <div align="center"><a href="index.php" class="button">Login</a>
 </div>
-
-      <br>
-
-  
-      <div class="chunks-container">
-          
-        <div class="item1">
-          <h2>Welcome to MoodForFood</h2>
-            
-            
-            
-              
-            <div id="left"> <img src="Images/download.png" alt="shop sign"  width="400" height="400"> </div>
-            
-            
-                
-
-
-             
-             
-                 
-            
-            
-            
-            <a href="index.php" class="button">Login</a>
-            
-            
-            
-            
-          
-      </div> 
-          
-          
-                      <div class="item3">
-            <p2>shgcuhgyg dhegu dehuedh ihdiwuedhu wdiruhwiruh dewidgd iwdhiue beiudb edbwid edgui</p2> 
-             
-        </div>
+                                                
     </div>
+        </div>
+        </section>
     
     <br>
     <br>
  
       <footer>
-        <br>
-        <br>
-         <h2>Mood For Food </h2>  
-          
-          <p class="contact"> <a href="menu.php">Menu</a>  |<a href="Aboutus.php">about us</a> </p>
-          
-       <h1>Contact us</h1>
         
-           <img src="Images/call.png" alt="shop sign"  width="25" height="25"> <br>
-          <p> +123456789</p>
-            <img src="Images/envelope.png" alt="shop sign"  width="25" height="25"> <p> <a href="mailto:MoodForFood@hotmail.com"> MoodForFood@gmail.com</a></p><br>
+        <div class="footer-content">
           
-          <img src="./marker1.png" alt="shop sign"  width="25" height="25"> <p> Dublin1, City Centre</p>
+          <div class="footer-item">           <img src="Images/call.png" alt="shop sign"  width="25" height="25"> <br> <p> +123456789</p>
+</div>
+                     
+          <div class="footer-item"><img src="Images/envelope.png" alt="shop sign"  width="25" height="25"> <p> <a2 class="email" href="mailto:MoodForFood@hotmail.com"> MoodForFood@gmail.com</a2></p></div>
+          <div class="footer-item"><img src="./marker1.png" alt="shop sign"  width="25" height="25"> <p> Dublin1, City Centre</p></div>
+
+          </div>
+    
+            
+          
+          
       </footer>
  
     

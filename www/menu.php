@@ -11,7 +11,7 @@
     <nav>
         <ul>
             <li><a href="index1.php">Home</a></li>
-            <li><a href="menu.html">Menu</a></li>
+            <li><a href="menu.php">Menu</a></li>
             <li><a href="Aboutus.php">About Us</a></li>
           
         </ul>

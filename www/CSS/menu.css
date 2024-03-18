@@ -8,6 +8,11 @@ nav {
     background-color: #12010d;
 }
 
+
+li {
+    float: right;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -15,9 +20,6 @@ ul {
     overflow: hidden;
 }
 
-li {
-    float: left;
-}
 
 a {
     display: block;

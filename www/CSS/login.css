@@ -37,6 +37,19 @@ color: white;
         
 }
 
+a3 {
+    color: inherit;
+    text-decoration: none;
+}
+
+a3:hover {
+    text-decoration: underline;
+    color: inherit;
+    cursor: pointer;
+    color:red;
+}
+
+
 
             .opt {
                 margin-top: 30px;
@@ -47,10 +60,7 @@ color: white;
               font-size: 150%;
             }
             
-            a:hover {
-              color: red;
-            }
-            
+           
             .title{
             position: absolute;
             left: 530px;
@@ -90,14 +100,7 @@ color: white;
             }
        
             
-            a.button {
-    padding: 1px 6px;
-    border: 1px outset buttonborder;
-    border-radius: 3px;
-    color: buttontext;
-    background-color: buttonface;
-    text-decoration: none;
-}
+    
             .button1{
                  background-color: blue;
                 padding: 15px 50px;
@@ -106,8 +109,5 @@ color: white;
                 
             }
             
-            a{
-                
-                color:darkblue;
-            }
+          
         
