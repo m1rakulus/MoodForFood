@@ -8,17 +8,21 @@
 </head>
 <body>
 
-    <nav>
-        <ul>
-            <li><a href="index1.php">Home</a></li>
-            <li><a href="menu.php">Menu</a></li>
-            <li><a href="Aboutus.php">About Us</a></li>
-          
-        </ul>
-    </nav>
-
     <header>
-        <h1>Mood for Food</h1>
+        <nav>
+            <div class="logo">
+              Mood For Food
+              </div>
+            <ul class="nav-links">
+                <li><a href="index1.php">
+                  Home</a>
+                  </li>
+                <li><a href="menu.php">
+                  Menu</a>
+                  </li>
+               
+            </ul>
+        </nav>
     </header>
 
     <section class="menu">

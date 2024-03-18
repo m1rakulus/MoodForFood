@@ -38,7 +38,7 @@
                 <img src="Images/moodforfood.png" width="200" height="200" alt="Moodforfoood">
             </div>
             <div>
-            <p> MoodForFood aims to create an access to fresh food picked daily from our trusted farmers and delivered straight to their door. We provide fresh, good-quality ingredients that satisfy our customer's needs.Start ordering at MoodForFood.
+            <p> MoodForFood aims to create an access to fresh food picked daily from our trusted farmers and delivered straight to their door. We provide fresh, good-quality ingredients that satisfy our customer's needs.Start ordering today at MoodForFood.
             </p>
                 
          </body>

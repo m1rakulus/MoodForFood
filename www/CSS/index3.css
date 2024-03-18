@@ -11,12 +11,7 @@ header{
 }
 
 
-header {
-    background-color: palevioletred;
-    color: white;
-    text-align: center;
-    padding: 1em;
-}
+
 
 
 .item1{
@@ -260,6 +255,7 @@ nav {
  
 .logo {
     font-size: 1.5rem;
+    font-weight: bold;
     font-weight: bold;
     color: lightgreen;
 }

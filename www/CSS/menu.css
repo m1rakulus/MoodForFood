@@ -1,18 +1,103 @@
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: lightgreen;
+}
+
+
+ 
+
+/*
+header {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+*/
+header{
+  background-color:rgba(95, 177, 176, 0.858);
+  text-align: center;
+  padding-top: 10px;
+  color:white;
+  font-weight: bold;
+  font-size: 30px;
+  height: inherit;
+  padding-top: 140px;
+  background-image: url('../images/heading.jpg');
+}
+header {
+    background-color: black;
+    color: rgb(0, 0, 0);
+    padding: 10px 0;
+    width: 100%;
+    z-index: 100;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+ 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px auto;
+    padding: 0 20px;
+}
+
+
+ 
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
+    background-color:
 }
 
+/*
 nav {
     background-color: #12010d;
 }
+*/
 
+
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: lightgreen;
+}
+
+
+.nav-links {
+    list-style: none;
+    display: flex;
+
+}
+ 
+.nav-links li {
+    margin-right: 20px;
+}
+ 
+.nav-links a {
+    padding: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+ 
+.nav-links a:hover {
+    background-color: lightgreen;
+    border-radius: 4px;
+    color: white;
+}
 
 li {
     float: right;
 }
-
+F
 ul {
     list-style-type: none;
     margin: 0;
@@ -34,12 +119,7 @@ a:hover {
     color: rgb(0, 0, 0);
 }
 
-header {
-    background-color: palevioletred;
-    color: white;
-    text-align: center;
-    padding: 1em;
-}
+
 
 .menu {
     display: flex;
@@ -55,6 +135,7 @@ header {
     border: 1px solid green;
     border-radius: 5px;
     text-align: center;
+    background-color: lightgreen;
 }
 
 .menu-item img {
