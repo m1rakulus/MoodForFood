@@ -210,21 +210,21 @@ color: white;
         <h2>Create an account</h2>
         <br>
         
-    <form  method="post" >
+    <form  action="index.php" method="GET" >
   <label for="email">First name:</label>
   <input type="text" id="name" name="first_name"  >   &nbsp; &nbsp; &nbsp;<br><br>
         <label for="email">Second name:</label>  
-  <input type="text" id="name" name="second_name"  >   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br><br>  
+  <input type="text" id="name" name="last_name"  >   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br><br>  
         
         
         &nbsp; <label for="address">Email:</label> 
-  <input type="text" id="address" name="address"  ><br><br>
+  <input type="email" id="email" name="email"  ><br><br>
        
          <label for="address">Password:</label> 
-  <input type="password" id="address" name="address"  >  &nbsp;&nbsp;&nbsp;<br><br>
+  <input type="password" id="password" name="password"  >  &nbsp;&nbsp;&nbsp;<br><br>
        
-         <label for="address">Phone number:</label>
-  <input type="text" id="address" name="address"   > &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br>
+         <label for="contact">Phone number:</label>
+  <input type="text" id="contact" name="contact"   > &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br>
        
        <button class="button">Signup</button>
         
