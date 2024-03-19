@@ -34,7 +34,7 @@
     </header>
  
     <section class="about">
-                <h1></h1>
+               
 
         <h1>Welcome to MoodForFood</h1>
 
