@@ -7,20 +7,25 @@
         <title>Food Menu</title> 
     </head> 
 
-        <?php
-        require 'menu.php';
+    <?php
+        
+        $cart = array();
+
+        function addToCart(String $add){
+            array_push($cart, $add);
+        }
             
-            function getArray($addingArray){
+        function getArray(){
 
-                // foreach ($addingArray as $x) {
-                //     echo "$x <br>";
-                // }
-            // print_r($addingArray);
+            foreach ($cart as $x) {
+                echo "$x <br>";
             }
+            //print_r($cart);
+        }
 
-            if(isset($_POST['exitBtn'])){
-                getArray($addingArray2);
-            }
+            // if(isset($_POST['exitBtn'])){
+            //     getArray($addingArray2);
+            // }
 
             
         
