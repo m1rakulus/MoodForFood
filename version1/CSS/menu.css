@@ -1,0 +1,158 @@
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: lightgreen;
+}
+
+
+ 
+
+/*
+header {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+*/
+header{
+  background-color:rgba(95, 177, 176, 0.858);
+  text-align: center;
+  padding-top: 10px;
+  color:white;
+  font-weight: bold;
+  font-size: 30px;
+  height: inherit;
+  padding-top: 140px;
+  background-image: url('../images/heading.jpg');
+}
+header {
+    background-color: black;
+    color: rgb(0, 0, 0);
+    padding: 10px 0;
+    width: 100%;
+    z-index: 100;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+ 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px auto;
+    padding: 0 20px;
+}
+
+
+ 
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:
+}
+
+/*
+nav {
+    background-color: #12010d;
+}
+*/
+
+
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: lightgreen;
+}
+
+
+.nav-links {
+    list-style: none;
+    display: flex;
+
+}
+ 
+.nav-links li {
+    margin-right: 20px;
+}
+ 
+.nav-links a {
+    padding: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+ 
+.nav-links a:hover {
+    background-color: lightgreen;
+    border-radius: 4px;
+    color: white;
+}
+
+li {
+    float: right;
+}
+F
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #ddd;
+    color: rgb(0, 0, 0);
+}
+
+
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.menu-item {
+    width: 300px;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid green;
+    border-radius: 5px;
+    text-align: center;
+    background-color: lightgreen;
+}
+
+.menu-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.menu-item h2 {
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+.menu-item p {
+    margin: 10px 0;
+}
+
+.price {
+    font-weight: bold;
+    color: #d9534f; /* Bootstrap's danger color */
+}
