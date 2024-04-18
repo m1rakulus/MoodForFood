@@ -17,7 +17,7 @@
               Mood For Food
               </div>
             <ul class="nav-links">
-                <li><a href="index1.php">
+                <li><a href="index.php">
                   Home</a>
                   </li>
                 <li><a href="menu.php">

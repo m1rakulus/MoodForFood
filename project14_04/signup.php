@@ -85,7 +85,7 @@ function test_input($data) {
         <h2>Create an account</h2>
         <br>
         
-    <form  method="get"   action="index1.php">
+    <form  method="get"   action="index.php">
   <label for="email">First name:</label>
   <input type="text" id="name" name="first_name"  > <span class="error"> <?php echo $first_nameErr;?></span>   &nbsp; &nbsp; &nbsp;<br><br>
         <label for="email">Second name:</label>  
