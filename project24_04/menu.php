@@ -1,3 +1,7 @@
+//references
+//https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_article2 (food items)
+//https://www.geeksforgeeks.org/design-an-about-us-page-using-html-and-css/ (nav bar)
+
 <!DOCTYPE html> 
 
 <html lang="en"> 

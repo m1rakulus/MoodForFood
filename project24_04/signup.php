@@ -1,3 +1,10 @@
+
+//references
+//from one of the labs from first year (sign up page)
+//https://tryphp.w3schools.com/showphp.php?filename=demo_form_validation_complete(form validation error messages)
+//login form (from first year Webdevclientside)
+// (phone number validation) https://www.abstractapi.com/guides/php-validate-phone-number
+
 <?php
 
 $first_nameErr =  $emailErr = $second_nameErr = $addressErr = $passwordErr = $phonenumberErr= "";
