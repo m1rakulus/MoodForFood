@@ -1,0 +1,44 @@
+/* Import styles from index3.css */
+@import url('index3.css');
+
+/* Styles specific to menu and different to index page */
+body {
+    background-color: white;
+    background-image: none;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.menu-item {
+    width: 300px;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid green;
+    border-radius: 5px;
+    text-align: center;
+    background-color: lightgreen;
+}
+
+.menu-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.menu-item h2 {
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+.menu-item p {
+    margin: 10px 0;
+}
+
+.price {
+    font-weight: bold;
+    color: #d9534f;
+}

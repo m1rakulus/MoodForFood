@@ -1,0 +1,156 @@
+
+        <style>
+            html, body {
+                height: 100%;
+            }
+ 
+
+            
+            .fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+            
+            .fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 10px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+            body {
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                display: table;
+                font-weight: 100;
+                font-family: 'Karla';
+            }
+
+            .container {
+                text-align: center;
+                display: table-cell;
+                vertical-align: middle;
+            }
+
+            .content {
+                text-align: center;
+                display: inline-block;
+            }
+            
+            body {
+    
+    text-align:center;
+    
+        
+}
+
+
+            .opt {
+                margin-top: 30px;
+            }
+
+            .opt a {
+              text-decoration: none;
+              font-size: 150%;
+            }
+            
+            a:hover {
+              
+            }
+            
+            .title{
+            position: absolute;
+            left: 530px;
+            top: 30px;
+            font-size:30px;
+            color:green;
+            }
+            label{
+                color:white;
+            }
+            
+  body {
+    
+    text-align:center;
+     background: url(food.jpg)
+        
+}
+ 
+    .facebook { 
+        background: #3b5998; 
+        color: white; 
+    } 
+
+ 
+            
+            fieldset{
+    padding:10px;
+    border:3px solid blue;
+    
+     width: 700px;
+                height:600px;
+     display: inline-block;
+       }
+            input{
+                
+                margin:7px;
+                padding:2px;
+                height:30px;
+                width:200px;
+            }
+            
+            .material-icons { 
+         padding: 10px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%; 
+    }
+            h1{
+                color:white;
+                font-family: cursive;
+            }
+            .button{
+                 background-color: blue;
+    border: none;
+  color: white;
+  padding: 15px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+                
+            }
+            .button1{
+                 background-color: blue;
+                padding: 15px 50px;
+                
+                
+                
+            }
+            
+             body {
+    
+    text-align:center;
+     background: url(../signup.png)
+        
+}
+
+
+
+            
+            h2{
+                color:white;
+            }
+.error{
+    
+    color:black;
+
+}
+           
+        </style>
