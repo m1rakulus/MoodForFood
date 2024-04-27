@@ -1,63 +1,9 @@
-<?php
-
-$nameErr = "";  
-$secondnameErr="";
-$emailErr = ""; 
-
-
-if ($_SERVER["REQUEST_METHOD"] == "POST") {  
-  if (empty($_POST["firstname"])) {  
-    $nameErr = "Name Field is required";  
-  } else {  
-    $name = test_input($_POST["firstname"]);  
-    if (!preg_match("/^[a-zA-Z-' ]*$/",$name)) {  
-      $nameErr = "Only letters and white space allowed";  
-    }  
-  }
-    
-     if (empty($_POST["secondname"])) {  
-    $nameErr = "Name Field is required";  
-     }
-    else {  
-    $name = test_input($_POST["secondname"]);  
-    if (!preg_match("/^[a-zA-Z-' ]*$/",$name)) {  
-      $nameErr = "Only letters and white space allowed";  
-    }  
-    }
-    
-    
-      if (empty($_POST["email"])) {  
-    $emailErr = "Email field is required";  
-      } else {  
-    $email = test_input($_POST["email"]);  
-    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {  
-      $emailErr = "Invalid email format";  
-    }  
-  }
-    
-}
-    
-    
-    
-    ?>
-<!DOCTYPE html>
-<html>
-    <head>
-       
-
-        <link href="https://fonts.googleapis.com/css?family=Karla:400" rel="stylesheet" type="text/css">
 
         <style>
             html, body {
                 height: 100%;
             }
-            .error {   
-color: white;  
-    font-family: lato;  
-    background: yellowgreen;  
-    display: inline-block;  
-    padding: 2px 10px;  
-}
+ 
 
             
             .fa-facebook {
@@ -191,53 +137,20 @@ color: white;
              body {
     
     text-align:center;
-     background: url(signup.png)
+     background: url(../signup.png)
         
 }
+
+
+
             
             h2{
                 color:white;
             }
-        
+.error{
+    
+    color:black;
+
+}
            
         </style>
-    </head>
-    <body>
-    <fieldset>
-            
-        <h1>Sign up</h1>
-        
-        <h2>Create an account</h2>
-        <br>
-        
-    <form  method="post" >
-  <label for="email">First name:</label>
-  <input type="text" id="name" name="first_name"  >   &nbsp; &nbsp; &nbsp;<br><br>
-        <label for="email">Second name:</label>  
-  <input type="text" id="name" name="second_name"  >   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br><br>  
-        
-        
-        &nbsp; <label for="address">Email:</label> 
-  <input type="text" id="address" name="address"  ><br><br>
-       
-         <label for="address">Password:</label> 
-  <input type="password" id="address" name="address"  >  &nbsp;&nbsp;&nbsp;<br><br>
-       
-         <label for="address">Phone number:</label>
-  <input type="text" id="address" name="address"   > &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br>
-       
-       <button class="button">Signup</button>
-        
-     
-        
-
-
-        
- 
-
- 
-    </form>
-       
-     </fieldset>
-</body>
-</html>

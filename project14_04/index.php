@@ -1,3 +1,23 @@
+<?php
+require 'User.php';
+require 'Functions.php';
+if(!empty($_GET["first_name"])) {
+	$first_name = $_GET["first_name"];
+	$last_name = $_GET["second_name"];
+	$email = $_GET["address"];
+	$password = $_GET["password"];
+	$contact = $_GET["phonenumber"];
+	$usr = new User();
+	$usr -> set_firstname($first_name);
+	$usr -> set_lastname($last_name);
+	$usr -> set_email($email);
+	$usr -> set_password($password);
+	$usr -> set_contact($contact);
+	$usr -> set_roleid(1);
+	writeUser($usr);
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -19,7 +39,7 @@
               Mood For Food
               </div>
             <ul class="nav-links">
-                <li><a href="index1.php">
+                <li><a href="index.php">
                   Home</a>
                   </li>
                 <li><a href="menu.php">
@@ -48,7 +68,7 @@
             </p>
 
                 <br><br><br><br>
-                <div align="center"><a href="index.php" class="button">Login</a>
+                <div align="center"><a href="login.php" class="button">Login</a>
 </div>
                                                 
     </div>

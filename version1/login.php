@@ -7,9 +7,12 @@
     <head>
        
 
-        <link href="https://fonts.googleapis.com/css?family=Karla:400" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" href="CSS/index.css">
+       
+        <link rel="stylesheet"
+          href="CSS/login1.css">
 
+      
+           
         
     </head>
     <body>
@@ -25,15 +28,15 @@
            
         <br><br>
         
- <label for="address">Password:</label>
-  <input type="password" id="address" name="address" ><br><br> &nbsp;&nbsp;&nbsp;
+ <label for="password">Password:</label>
+  <input type="password" id="password" name="password" ><br><br> &nbsp;&nbsp;&nbsp;
        
         <p>need an account?</p> <a href="signup.php">Signup</a>
         
         <br><br>
         
         
-    <a href="index1.php" class="button">Login</a>
+    <a name="Submit" href="index1.php" class="button1">Login</a>
       
         
 
@@ -44,6 +47,10 @@
  
     </form>
         
+        
+        
      </fieldset>
+        
+      
 </body>
 </html>

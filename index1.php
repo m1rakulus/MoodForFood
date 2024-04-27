@@ -1,3 +1,23 @@
+<?php
+session_start();
+
+if(!isset($_SESSION['email'])) {
+  header("location: index.php");
+  die();
+}
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+
+  session_destroy();
+  header("location: index.php");
+  die();
+
+}
+
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -34,9 +54,9 @@
     </header>
  
     <section class="about">
-               
+                <h1></h1>
 
-        <h1>Welcome to MoodForFood</h1>
+        <h1><?php if(isset($_SESSION['firstName'])){ echo $_SESSION['firstName'] . ' '. $_SESSION['lastName']; } ?>! Welcome to MoodForFood</h1>
 
         
         <div class="about-info">
@@ -48,7 +68,11 @@
             </p>
 
                 <br><br><br><br>
-                <div align="center"><a href="index.php" class="button">Login</a>
+                <div align="center">
+                  
+                <form action="index1.php" method="post">
+                  <button type="submit" class="button">Logout</button>
+                </form>
 </div>
                                                 
     </div>
