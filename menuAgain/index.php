@@ -54,9 +54,10 @@
                             while($row = mysqli_fetch_array($result)){?>
                             <div class="col-md-4">
                                 <form method="post" action="index.php?id=<?=$row['id'] ?>">
-                                    <img src="images/<?=$row['image'] ?>" style='height: 150px; width: auto' />
+                                    <img src="Images/<?=$row['image'] ?>" style='height: 150px; width: auto' />
                                     <h5 class="text-center"><?= $row['prodName']; ?></h5>
                                     <h5 class="text-center">€<?= number_format($row['price'],2); ?></h5>
+                                    <h5 class="text-center"><?= $row['description']; ?></h5>
 
                                     <input type="hidden" name="name" value="<?= $row['prodName'] ?>">
                                     <input type="hidden" name="price" value="<?= $row['price'] ?>">
