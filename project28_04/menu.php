@@ -115,7 +115,7 @@
         
             session_start();
             //$addingArray = array("Salad","Chicken roll","Noodles","Desi Foods","Chinese Food");
-            $addingArray2 = ["SUCK"];
+            $addingArray2 = [];
         
             if(!isset($_SESSION['cart'])){
                 $_SESSION['cart'] = [];
