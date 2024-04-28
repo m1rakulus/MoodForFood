@@ -142,6 +142,10 @@
                     ?>
                 </div>
             </div>
+                <form method="post">
+                    <input type="submit" name="exitBtn" value="Clear cart">
+                </form>
+                <a href="deliveryInfo.html" >Tap here to proceed with the delivery details!</a><br/><br/>
         </div>
 
         <?php
