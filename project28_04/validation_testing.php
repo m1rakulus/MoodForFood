@@ -13,7 +13,7 @@ $_GET["phonenumber"] = "0123456789";
 $_GET["password"] = "joespassword";
 
 //Register account
-include "index.php";
+include "../index.php";
 
 //open connection with database
 $pdo = require 'install.php';
@@ -57,7 +57,7 @@ $_POST['button1'] = "set";
 $_POST['button2'] = "set";
 $_POST['button3'] = "set";
 
-include "menu.php";
+include "../menu.php";
 
 if(count($_SESSION['cart']) == 3){
     echo "items successfully added ";
@@ -73,7 +73,7 @@ $_POST['button1'] = null;
 $_POST['button2'] = null;
 $_POST['button3'] = null;
 
-include "menu.php";
+include "../menu.php";
 
 
 if(count($_SESSION['cart']) == 0){
