@@ -1,6 +1,6 @@
 <?php
     session_start();
-    // $connect = mysqli_connect("localhost,"root","jannabanana500!!","menutest");
+    // $connection = mysqli_connect("localhost,"root","jannabanana500!!","menutest");
     //changes made
     /**
     * Configuration for database connection
