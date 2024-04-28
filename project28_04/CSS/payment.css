@@ -1,0 +1,10 @@
+body {
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                display: table;
+                font-weight: 100;
+                text-align:center;
+                background-color: lightblue;
+
+            }
