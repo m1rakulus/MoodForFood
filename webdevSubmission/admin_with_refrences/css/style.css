@@ -1,0 +1,191 @@
+/* Reset default margin, padding, and font for all elements */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Set background color */
+}
+
+/* Style links */
+a {
+    text-decoration: none; /* Remove underline */
+    color: #ffff; /* Set text color */
+}
+
+/* Sidebar styles */
+#sidebar {
+    position: fixed; /* Fix sidebar position */
+    top: 0;
+    left: 0;
+    width: 250px; /* Set width */
+    height: 100%; /* Set height to cover full screen */
+    background-color: #333; /* Set background color */
+    padding-top: 20px; /* Add padding at the top */
+}
+
+/* Style for unordered list inside the sidebar */
+#sidebar ul {
+    list-style-type: none; /* Remove default list style */
+    padding: 0;
+    margin: 0;
+}
+
+/* Style for list items inside the sidebar */
+#sidebar ul li {
+    padding: 10px; /* Add padding */
+    color: white; /* Set text color */
+    cursor: pointer; /* Set cursor style */
+    transition: background-color 0.3s ease; /* Add transition effect */
+}
+
+/* Hover effect for list items */
+#sidebar ul li:hover {
+    background-color: #555; /* Change background color on hover */
+}
+
+/* Icon style for list items */
+#sidebar ul li i {
+    margin-right: 10px; /* Add margin to the right of the icon */
+}
+
+/* Header styles */
+#header {
+    background-color: #444; /* Set background color */
+    color: white; /* Set text color */
+    padding: 20px; /* Add padding */
+    height: 60px; /* Set height */
+    line-height: 60px; /* Set line height */
+    text-align: center; /* Center-align text */
+}
+
+/* Content styles */
+#content {
+    margin-left: 250px; /* Set margin to accommodate sidebar */
+    padding: 20px; /* Add padding */
+}
+
+/* Input, select, and file input styles */
+input[type="text"],
+select,
+input[type="file"] {
+    width: 100%; /* Set width */
+    padding: 10px; /* Add padding */
+    margin: 5px 0; /* Add margin */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 4px; /* Add border radius */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* Submit button styles */
+input[type="submit"] {
+    background-color: #4CAF50; /* Set background color */
+    color: white; /* Set text color */
+    padding: 14px 20px; /* Add padding */
+    margin: 8px 0; /* Add margin */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Add border radius */
+    cursor: pointer; /* Set cursor style */
+}
+
+/* Hover effect for submit button */
+input[type="submit"]:hover {
+    background-color: #45a049; /* Change background color on hover */
+}
+
+/* Card styles */
+.card {
+    padding: 16px; /* Add padding */
+    background: white; /* Set background color */
+    border-radius: 10px; /* Add border radius */
+}
+
+/* Success alert styles */
+.alert-success {
+    background: green; /* Set background color */
+    padding: 8px; /* Add padding */
+    margin-bottom: 10px; /* Add margin */
+    border-radius: 3px; /* Add border radius */
+    color: white; /* Set text color */
+}
+
+/* Error alert styles */
+.alert-error {
+    background: red; /* Set background color */
+    padding: 8px; /* Add padding */
+    margin-bottom: 10px; /* Add margin */
+    border-radius: 3px; /* Add border radius */
+    color: white; /* Set text color */
+}
+
+/* Table styles */
+table {
+    width: 100%; /* Set width */
+    border-collapse: collapse; /* Collapse table borders */
+}
+
+/* Table header and data cell styles */
+table th,
+table td {
+    padding: 8px; /* Add padding */
+    border: 1px solid #ddd; /* Add border */
+    text-align: left; /* Left-align text */
+}
+
+/* Table header styles */
+table th {
+    background-color: #f2f2f2; /* Set background color */
+    font-weight: bold; /* Set font weight */
+}
+
+/* Alternate row color for table */
+table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Set background color */
+}
+
+/* Hover effect for table rows */
+table tr:hover {
+    background-color: #ddd; /* Change background color on hover */
+}
+
+/* Card header styles */
+.card .card-header {
+    margin-bottom: 14px; /* Add margin */
+}
+
+/* Card title styles */
+.card .card-header .card-title {
+    display: inline; /* Display inline */
+    /* https://www.w3schools.com/bootstrap4/bootstrap_cards.asp */
+}
+
+/* Add new button styles */
+.card .card-header .add-new {
+    display: inline; /* Display inline */
+    float: right; /* Float right */
+    background: #5ca0ff; /* Set background color */
+    border: none; /* Remove border */
+    color: #ffff; /* Set text color */
+    padding: 8px; /* Add padding */
+    border-radius: 3px; /* Add border radius */
+    /* https://www.w3schools.com/css/css3_buttons.asp */
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    #sidebar {
+        width: 100px; /* Adjust sidebar width for smaller screens */
+    }
+    #sidebar ul li {
+        padding: 10px; /* Adjust padding for list items in sidebar */
+    }
+    #header {
+        padding: 10px; /* Adjust padding for header */
+        height: 40px; /* Adjust height for header */
+        line-height: 40px; /* Adjust line height for header */
+    }
+    #content {
+        margin-left: 100px; /* Adjust margin for content area */
+        padding: 10px; /* Adjust padding for content area */
+    }
+    /* https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_col-s*/
+}
