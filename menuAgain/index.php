@@ -39,6 +39,26 @@
         <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
         <title>Shopping Cart</title>
     </head>
+
+    <header>
+        <nav>
+            <div class="logo">
+                Mood For Food
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.php">
+                    Home</a>
+                </li>
+                <li><a href="menu.php">
+                    Menu</a>
+                </li>
+                <li><a href="Aboutus.php">
+                    About us</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
     <body>
         <div class="container-fluid">
             <div class="col-md-12">
